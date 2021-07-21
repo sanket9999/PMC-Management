@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PMC...</title>
+    
+</head>
+<style>
+    /css reset/
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url(img/23.jpg);
+        height: 1000px;
+        
+    }
+    /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: rgb(12, 48, 156) ;
+    padding: 20px;
+  }
+  .rightnav{
+    width: 20%;
+    height: 10%;
+    text-align: right;
+}
+</style>
+<body>
+    
+
+<nav class="navbar background">
+    <ul class="nav-list">
+      <div class="logo"><img src="img/SF_logo.jpeg" alt="Logo"></div>
+      <li><a href="file:///E:/School_Finder/SF_Page1.html">Home </a></li>
+      <li><a href="file:///E:/School_Finder/About_us.html">About </a></li>
+      <li><a href="file:///E:/School_Finder/contactus.html">Contact Us </a></li>
+      <li><a href="file:///E:/School_Finder/SF_login.html">Login </a></li>
+        
+    </ul>
+ 
+    
+</nav>
+<h1><br></h1>
+<div class="container">
+    <form method = "POST" action="http://localhost/DBMS/Contact_us.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" placeholder="Your last name..">
+
+  
+      <label for="subject">Subject</label>
+      <input type="text" id = "subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+</body>

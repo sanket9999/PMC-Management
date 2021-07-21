@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<title>PMC</title>
+<style>
+ 
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url(img/23.jpg);
+        height: 1000px;
+    }
+.vertical-menu {
+  width: 200px;
+  
+}
+
+.form_format
+{
+    font-size: 30px;
+
+}
+.vertical-menu a {
+  background-color: rgb(11, 47, 155);
+  margin: 10px;
+  color: rgb(47, 179, 255);
+  display: block;
+  padding: 20px;
+  width: 750px;
+  text-decoration: none;
+}
+
+
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.rightnav{
+    width: 20%;
+    height: 10%;
+    text-align: right;
+}
+</style>
+</head>
+<body>
+
+  <nav class="navbar background">
+    <ul class="nav-list">
+        <div class="logo"><img src="img/SF_logo.jpeg" alt="Logo"></div>
+        <li><a href="menu.html">Home </a></li>
+        <li><a href="#about">About </a></li>
+        <li><a href="#contact">Contact Us </a></li>
+        <li><a href="#login">Login </a></li>
+    </ul>
+</nav>
+<center><h1>Welcome to Project Delete portal</h1></center>
+<center><h1>Enter Your Information</h1></center>
+
+<div class="container">
+  <form method = "POST" action="http://localhost/DBMS/Delete_Project.php">
+
+    <label for="Project_NO">Enter Project NO to delete the data:</label><br>
+    <input type="number" id="Project_NO" name="Project_NO" value="" style="width:175px"><br>
+
+
+    <input type="submit" value="Delete">
+</form>  
+
+</div>
+
+</body>
+</html>

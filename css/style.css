@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+body{
+    background: url(img/23.jpg);
+}
+.logo{
+   
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+
+}
+.logo img
+{
+   border: 3px solid black;
+   width: 55%;
+}
+.navbar{
+    display:flex;
+    
+}
+.nav-list{
+    width: 85%;
+    display: flex;
+    align-items: center;
+     
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+    
+
+}
+.rightnav{
+    width: 50%;
+    text-align: right;
+}
+
+#search{
+    
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+.box-main{
+    justify-content: center;
+    align-items:center;
+
+}
+
+.container{
+    border: 2px solid black;
+    margin: auto;
+    padding: 75px;
+    width: 23%;
+    border-radius: 28px;
+    color: greenyellow;
+    background-color: rgb(12, 42, 134);
+    
+}
+.background{
+    background: rgba(142, 150, 30, 0.7) url('../img/23.jpg');
+    
+    background-blend-mode: darken;
+}
+.formgroup input{
+    text-align: left;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 3px auto;
+
+
+}
